@@ -1,13 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Surströmming Sandwich Recipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header>
+        <h1>Surströmming Sandwich</h1>
+        <h2>(Surströmmingsklämma)</h2>
+
+        <img src="https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_218186/cf_259/surstrommingsklamma.jpg" alt="Picture of Surströmming Sandwich" />
+    </header>
+
+    <main>
+        <article>
+            <section class="recipe-info" aria-label="Recipe Info">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-clock"></i>
+                        <span>Under 45 minutes</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-fish"></i>
+                        <span>7 ingredients</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-arrow-up-right-dots"></i>
+                        <span>Medium difficulty</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="introduction" aria-label="Introduction">
+                <p>Curious about how a real Swedish Surströmming sandwich tastes? Try our recipe featuring traditional toppings like potatoes, fermented herring, red onion, butter, and soft flatbread. It's simple and truly a delicacy!</p>
+            </section>
+
+            <section class="recepe" aria-label="Recipe">
+                <section class="ingredients" aria-label="Ingredients">
+                    <h2>Ingredients</h2>
+                    <p><strong>Serves:</strong> 4 portions</p>
+                    <ul>
+                        <li><strong>1 kg</strong> almond or new potatoes</li>
+                        <li><strong>1 can</strong> fermented herring (approx. 475 g)</li>
+                        <li><strong>2</strong> red onions</li>
+                        <li><strong>1/2 dl</strong> finely chopped chives</li>
+                        <li>Butter</li>
+                        <li>Soft flatbread</li>
+                        <li>Sour cream</li>
+                    </ul>
+                </section>
+
+                <section class="instructions" aria-label="Instructions">
+                    <h2>Instructions</h2>
+                    <ol>
+                        <li>Wash and boil the potatoes in lightly salted water until soft.</li>
+                        <li>Drain and clean the fermented herring. Peel and finely chop the onions. Slice the potatoes.</li>
+                        <li>Spread butter on the flatbread, add sliced potatoes, onions, chives, and fermented herring. Top with a spoonful of sour cream and roll into wraps.</li>
+                    </ol>
+                </section>
+            </section>
+
+            <section aria-label="Actions">
+                <button onclick="window.print()"><i class="fa-solid fa-print"></i> Print Recipe</button>
+                <button onclick="alert('Share feature coming soon!')"><i class="fa-solid fa-share"></i> Share</button>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Swedish Recipes. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
